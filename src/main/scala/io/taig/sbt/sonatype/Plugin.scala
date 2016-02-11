@@ -16,7 +16,7 @@ object Plugin extends AutoPlugin {
 
     override def trigger = allRequirements
 
-    override def globalSettings: Seq[Def.Setting[_]] = Seq(
+    override def projectSettings: Seq[Def.Setting[_]] = Seq(
         homepage := Some( url( s"https://github.com/taig/${githubProject.value.toLowerCase}" ) ),
         licenses := Seq( "MIT" -> url( s"https://raw.githubusercontent.com/taig/${githubProject.value.toLowerCase}/master/LICENSE" ) ),
         organizationHomepage := Some( url( "http://taig.io" ) ),
