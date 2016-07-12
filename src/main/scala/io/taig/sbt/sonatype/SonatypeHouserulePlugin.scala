@@ -3,6 +3,7 @@ package io.taig.sbt.sonatype
 import sbt._
 import sbt.Keys._
 import sbt.plugins.JvmPlugin
+import xerial.sbt.Sonatype
 import xerial.sbt.Sonatype.autoImport._
 
 object SonatypeHouserulePlugin extends AutoPlugin {
@@ -12,7 +13,7 @@ object SonatypeHouserulePlugin extends AutoPlugin {
 
     import autoImport._
 
-    override def requires = JvmPlugin
+    override def requires = JvmPlugin && Sonatype
 
     override def trigger = allRequirements
 
