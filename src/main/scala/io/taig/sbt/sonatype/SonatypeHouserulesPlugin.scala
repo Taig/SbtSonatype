@@ -6,7 +6,7 @@ import sbt.plugins.JvmPlugin
 import xerial.sbt.Sonatype
 import xerial.sbt.Sonatype.autoImport._
 
-object SonatypeHouserulePlugin extends AutoPlugin {
+object SonatypeHouserulesPlugin extends AutoPlugin {
     object autoImport {
         val githubProject = settingKey[String]( "Github project identifier" )
     }
