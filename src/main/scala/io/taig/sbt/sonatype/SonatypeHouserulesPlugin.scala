@@ -18,9 +18,7 @@ object SonatypeHouserulesPlugin extends AutoPlugin {
     override def trigger = allRequirements
 
     override def projectSettings: Seq[Def.Setting[_]] = Seq(
-        githubProject := sys.error {
-            "Please specify sbt configuration for githubProject"
-        },
+        githubProject := normalizedName.value,
         homepage := Some( url( s"https://github.com/taig/${githubProject.value.toLowerCase}" ) ),
         licenses := Seq( "MIT" -> url( s"https://raw.githubusercontent.com/taig/${githubProject.value.toLowerCase}/master/LICENSE" ) ),
         organizationHomepage := Some( url( "http://taig.io" ) ),
