@@ -6,6 +6,6 @@
 
 ## Installation
 
-````
-addSbtPlugin( "io.taig" % "sbt-sonatype" % "1.1.0" )
-````
+```scala
+addSbtPlugin( "io.taig" % "sbt-sonatype" % "1.1.1" )
+```
