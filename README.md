@@ -1,4 +1,4 @@
-# sbt Houserules Sonatype Plugin
+# sbt Sonatype Houserules Plugin
 
 [![CircleCI](https://circleci.com/gh/Taig/sbt-sonatype/tree/master.svg?style=shield)](https://circleci.com/gh/Taig/sbt-sonatype/tree/master)
 
@@ -7,5 +7,5 @@
 ## Installation
 
 ```scala
-addSbtPlugin( "io.taig" % "sbt-sonatype" % "1.1.1" )
+addSbtPlugin( "io.taig" % "sbt-sonatype-houserules" % "1.1.1" )
 ```

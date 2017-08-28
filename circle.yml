@@ -3,6 +3,8 @@ machine:
     version: oraclejdk8
 
 dependencies:
+  pre:
+    - curl -Ls https://git.io/sbt > ~/bin/sbt && chmod 0755 ~/bin/sbt
   cache_directories:
     - "~/.sbt"
   override:
