@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   pre:
-    - curl -Ls https://git.io/sbt > ~/bin/sbt && chmod 0755 ~/bin/sbt
+    - curl -Ls https://git.io/sbt > ~/bin/sbt && chmod +x ~/bin/sbt
   cache_directories:
     - "~/.sbt"
   override:

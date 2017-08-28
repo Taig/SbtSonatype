@@ -7,5 +7,5 @@
 ## Installation
 
 ```scala
-addSbtPlugin( "io.taig" % "sbt-sonatype-houserules" % "1.1.1" )
+addSbtPlugin( "io.taig" % "sbt-sonatype-houserules" % "1.2.0" )
 ```
