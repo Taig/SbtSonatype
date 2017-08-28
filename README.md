@@ -1,4 +1,4 @@
-# sbt Sonatype houserules plugin
+# sbt Houserules Sonatype Plugin
 
 [![CircleCI](https://circleci.com/gh/Taig/sbt-sonatype/tree/master.svg?style=shield)](https://circleci.com/gh/Taig/sbt-sonatype/tree/master)
 
